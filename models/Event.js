@@ -8,6 +8,8 @@ const eventSchema = new mongoose.Schema({
   venue: String,
   totalSeats: Number,
   availableSeats: Number,
+  imageUrl:String,
+   price:Number
 });
 
 module.exports = mongoose.model('Event', eventSchema);

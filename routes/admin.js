@@ -47,6 +47,7 @@ router.get('/bookings', auth, async (req, res) => {
 
 router.post('/events', auth, async (req, res) => {
   const event = new Event(req.body);
+  console.log(req.body)
   await event.save();
   res.json(event);
 });
