@@ -1,6 +1,6 @@
 # 🚀 Event Booking Task – Backend
 
-This is the backend part of the Event Booking System. It provides RESTful APIs for managing events, processing bookings, and authenticating admin users.
+This is the backend part of the Event Booking System. It provides RESTful APIs for managing events, processing bookings, and authenticating admin
 
 ---
 
