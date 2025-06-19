@@ -19,7 +19,7 @@ router.post('/book', async (req, res) => {
   const booking = new Booking({ eventId, name, email, seats });
   await booking.save();
 
-  res.json({ message: 'Booking successful', booking });
+  res.json({ message: 'Booking successfull', booking });
 });
 router.get('/events/:id', async (req, res) => {
   try {
